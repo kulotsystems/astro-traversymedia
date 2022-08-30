@@ -1,6 +1,8 @@
 # editor
 .idea
-.vscode
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
 
 # build output
 dist/
