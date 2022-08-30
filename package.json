@@ -7,8 +7,9 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
-  },
+    "astro": "astro",
+    "rename-index": "node -e \"require('fs').rename('dist/index.html', 'dist/404.html', function(err) { if (err) console.log(err); console.log('index.html successfully renamed to 404.html') })\""
+},
   "devDependencies": {
     "astro": "^1.1.1"
   }
